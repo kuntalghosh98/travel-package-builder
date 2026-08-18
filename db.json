@@ -1,0 +1,1922 @@
+{
+  "packages": [
+    {
+      "id": "pkg-msxk2vk6-19hj707",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:17:05.896Z",
+      "updatedAt": "2026-08-17T18:17:06.636Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    },
+    {
+      "id": "pkg-msxk91wn-5gyvisc",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:21:54.043Z",
+      "updatedAt": "2026-08-17T18:21:54.655Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    },
+    {
+      "id": "pkg-msxkfwnc-nl77zxw",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:27:13.852Z",
+      "updatedAt": "2026-08-17T18:27:13.852Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    },
+    {
+      "id": "pkg-msxkipyh-a6tccc2",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:29:25.131Z",
+      "updatedAt": "2026-08-17T18:29:25.760Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    },
+    {
+      "id": "pkg-msxkox5o-59vlibx",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:34:14.380Z",
+      "updatedAt": "2026-08-17T18:34:15.032Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    },
+    {
+      "id": "pkg-msxl1pu6-32uuvi9",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia,111",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:44:11.452Z",
+      "updatedAt": "2026-08-17T18:44:17.255Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    },
+    {
+      "id": "pkg-msxl5409-55kgo9t",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:46:49.763Z",
+      "updatedAt": "2026-08-17T18:46:50.403Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    },
+    {
+      "id": "pkg-msxlkjnk-r7qhqg0",
+      "templateId": "template-1",
+      "company": "Wanderlust Travel Co.",
+      "consultant": "Travel Consultant",
+      "phone": "+1 (555) 123-4567",
+      "website": "www.wanderlusttravel.com",
+      "contact": {
+        "name": "",
+        "email": "",
+        "phone": ""
+      },
+      "destination": "Bali, Indonesia",
+      "title": "Tropical Paradise Escape",
+      "subtitle": "7 Days of Sun, Sand & Culture",
+      "guest": "",
+      "adults": 2,
+      "rooms": 1,
+      "startDate": "",
+      "endDate": "",
+      "nights": 0,
+      "days": 0,
+      "route": [
+        "Denpasar",
+        "Ubud",
+        "Seminyak",
+        "Denpasar"
+      ],
+      "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "inclusions": [
+        "6 nights accommodation in 4-star hotels",
+        "Daily breakfast and 3 dinners",
+        "Airport transfers and inter-city transport",
+        "English-speaking local guide",
+        "Entrance fees to all listed attractions",
+        "Travel insurance (basic coverage)"
+      ],
+      "exclusions": [
+        "International flights",
+        "Visa fees (if applicable)",
+        "Personal expenses and tips",
+        "Optional activities not listed",
+        "Travel insurance upgrades",
+        "Meals not specified in itinerary"
+      ],
+      "hotels": [
+        {
+          "option": "A",
+          "label": "Standard Comfort",
+          "city1": "Ubud",
+          "hotel1": "Ubud Village Hotel",
+          "room1": "Deluxe Garden View",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "The Haven Bali Seminyak",
+          "room2": "Superior Room",
+          "nights2": 3,
+          "vehicle": "Toyota Avanza (6-seater)"
+        },
+        {
+          "option": "B",
+          "label": "Premium Experience",
+          "city1": "Ubud",
+          "hotel1": "Komaneka at Bisma",
+          "room1": "Pool Villa",
+          "nights1": 3,
+          "city2": "Seminyak",
+          "hotel2": "W Bali - Seminyak",
+          "room2": "Wonderful Room",
+          "nights2": 3,
+          "vehicle": "Toyota Fortuner (6-seater)"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "route": "Denpasar → Ubud",
+          "title": "Arrival & Ubud Cultural Immersion",
+          "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+          "distance": "35 km / 1.5 hrs",
+          "activities": [
+            "Airport pickup and transfer",
+            "Check-in at hotel",
+            "Ubud Palace visit",
+            "Traditional market exploration",
+            "Welcome dinner at local restaurant"
+          ]
+        },
+        {
+          "day": 2,
+          "route": "Ubud",
+          "title": "Sacred Temples & Rice Terraces",
+          "description": "Full day exploring Ubud's spiritual and natural wonders.",
+          "distance": "25 km / 1 hr",
+          "activities": [
+            "Tegallalang Rice Terraces sunrise",
+            "Tirta Empul Holy Water Temple",
+            "Gunung Kawi Temple complex",
+            "Coffee plantation tour",
+            "Traditional Balinese dance performance"
+          ]
+        },
+        {
+          "day": 3,
+          "route": "Ubud",
+          "title": "Art, Craft & Wellness",
+          "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+          "distance": "15 km / 45 min",
+          "activities": [
+            "Mas Village woodcarving workshop",
+            "Celuk Village silver jewelry making",
+            "Ubud Art Market shopping",
+            "Spa treatment (2 hours)",
+            "Yoga session at hotel"
+          ]
+        },
+        {
+          "day": 4,
+          "route": "Ubud → Seminyak",
+          "title": "Journey to the Coast",
+          "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+          "distance": "30 km / 1.5 hrs",
+          "activities": [
+            "Tanah Lot Temple sunset visit",
+            "Canggu rice field walk",
+            "Beach club lunch",
+            "Check-in at Seminyak hotel",
+            "Sunset drinks at beach bar"
+          ]
+        },
+        {
+          "day": 5,
+          "route": "Seminyak",
+          "title": "Beach Day & Shopping",
+          "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Seminyak Beach morning swim",
+            "Boutique shopping on Jalan Kayu Aya",
+            "Potato Head Beach Club",
+            "Cooking class (optional)",
+            "Farewell beachfront dinner"
+          ]
+        },
+        {
+          "day": 6,
+          "route": "Seminyak",
+          "title": "Free Day / Optional Tours",
+          "description": "Choose your own adventure or simply relax.",
+          "distance": "Variable",
+          "activities": [
+            "Nusa Penida day trip (optional)",
+            "Surfing lessons (optional)",
+            "Spa & wellness day (optional)",
+            "Shopping & cafe hopping",
+            "Free evening"
+          ]
+        },
+        {
+          "day": 7,
+          "route": "Seminyak → Denpasar",
+          "title": "Departure",
+          "description": "Final morning at leisure before transfer to airport.",
+          "distance": "10 km / 30 min",
+          "activities": [
+            "Late checkout (subject to availability)",
+            "Last-minute souvenir shopping",
+            "Airport transfer",
+            "Farewell from Bali!"
+          ]
+        }
+      ],
+      "notes": [
+        "Best time to visit: April - October (dry season)",
+        "Visa on arrival available for most nationalities ($35 USD)",
+        "Local currency: Indonesian Rupiah (IDR)",
+        "Dress modestly when visiting temples (shoulders & knees covered)",
+        "Travel insurance highly recommended"
+      ],
+      "pricing": {
+        "validity": "",
+        "currency": "USD",
+        "totalPrice": 0,
+        "priceBreakdown": []
+      },
+      "createdAt": "2026-08-17T18:58:49.886Z",
+      "updatedAt": "2026-08-17T18:58:50.457Z",
+      "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+    }
+  ],
+  "folders": [
+    {
+      "name": "Kuntal",
+      "parentId": null,
+      "createdAt": "2026-08-17T18:27:35.297Z",
+      "updatedAt": "2026-08-17T18:27:35.297Z",
+      "id": 1
+    },
+    {
+      "name": "Kuntal1",
+      "parentId": 1,
+      "createdAt": "2026-08-17T18:27:52.333Z",
+      "updatedAt": "2026-08-17T18:27:52.333Z",
+      "id": 2
+    },
+    {
+      "name": "Kuntal2",
+      "parentId": 2,
+      "createdAt": "2026-08-17T18:28:02.536Z",
+      "updatedAt": "2026-08-17T18:28:02.536Z",
+      "id": 3
+    },
+    {
+      "name": "Kuntal2",
+      "parentId": null,
+      "createdAt": "2026-08-17T18:28:15.695Z",
+      "updatedAt": "2026-08-17T18:28:15.695Z",
+      "id": 4
+    }
+  ],
+  "templates": [
+    {
+      "name": "Test 11",
+      "description": "Test 12",
+      "category": "classic",
+      "tags": [],
+      "thumbnail": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "folderId": "3",
+      "structure": {
+        "company": "Wanderlust Travel Co.",
+        "consultant": "Travel Consultant",
+        "phone": "+1 (555) 123-4567",
+        "website": "www.wanderlusttravel.com",
+        "destination": "Bali, Indonesia",
+        "title": "Tropical Paradise Escape",
+        "subtitle": "7 Days of Sun, Sand & Culture",
+        "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+        "route": [
+          "Denpasar",
+          "Ubud",
+          "Seminyak",
+          "Denpasar"
+        ],
+        "inclusions": [
+          "6 nights accommodation in 4-star hotels",
+          "Daily breakfast and 3 dinners",
+          "Airport transfers and inter-city transport",
+          "English-speaking local guide",
+          "Entrance fees to all listed attractions",
+          "Travel insurance (basic coverage)"
+        ],
+        "exclusions": [
+          "International flights",
+          "Visa fees (if applicable)",
+          "Personal expenses and tips",
+          "Optional activities not listed",
+          "Travel insurance upgrades",
+          "Meals not specified in itinerary"
+        ],
+        "hotels": [
+          {
+            "option": "A",
+            "label": "Standard Comfort",
+            "city1": "Ubud",
+            "hotel1": "Ubud Village Hotel",
+            "room1": "Deluxe Garden View",
+            "nights1": 3,
+            "city2": "Seminyak",
+            "hotel2": "The Haven Bali Seminyak",
+            "room2": "Superior Room",
+            "nights2": 3,
+            "vehicle": "Toyota Avanza (6-seater)"
+          },
+          {
+            "option": "B",
+            "label": "Premium Experience",
+            "city1": "Ubud",
+            "hotel1": "Komaneka at Bisma",
+            "room1": "Pool Villa",
+            "nights1": 3,
+            "city2": "Seminyak",
+            "hotel2": "W Bali - Seminyak",
+            "room2": "Wonderful Room",
+            "nights2": 3,
+            "vehicle": "Toyota Fortuner (6-seater)"
+          }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "date": "",
+            "route": "Denpasar → Ubud",
+            "title": "Arrival & Ubud Cultural Immersion",
+            "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+            "distance": "35 km / 1.5 hrs",
+            "activities": [
+              "Airport pickup and transfer",
+              "Check-in at hotel",
+              "Ubud Palace visit",
+              "Traditional market exploration",
+              "Welcome dinner at local restaurant"
+            ]
+          },
+          {
+            "day": 2,
+            "date": "",
+            "route": "Ubud",
+            "title": "Sacred Temples & Rice Terraces",
+            "description": "Full day exploring Ubud's spiritual and natural wonders.",
+            "distance": "25 km / 1 hr",
+            "activities": [
+              "Tegallalang Rice Terraces sunrise",
+              "Tirta Empul Holy Water Temple",
+              "Gunung Kawi Temple complex",
+              "Coffee plantation tour",
+              "Traditional Balinese dance performance"
+            ]
+          },
+          {
+            "day": 3,
+            "date": "",
+            "route": "Ubud",
+            "title": "Art, Craft & Wellness",
+            "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+            "distance": "15 km / 45 min",
+            "activities": [
+              "Mas Village woodcarving workshop",
+              "Celuk Village silver jewelry making",
+              "Ubud Art Market shopping",
+              "Spa treatment (2 hours)",
+              "Yoga session at hotel"
+            ]
+          },
+          {
+            "day": 4,
+            "date": "",
+            "route": "Ubud → Seminyak",
+            "title": "Journey to the Coast",
+            "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+            "distance": "30 km / 1.5 hrs",
+            "activities": [
+              "Tanah Lot Temple sunset visit",
+              "Canggu rice field walk",
+              "Beach club lunch",
+              "Check-in at Seminyak hotel",
+              "Sunset drinks at beach bar"
+            ]
+          },
+          {
+            "day": 5,
+            "date": "",
+            "route": "Seminyak",
+            "title": "Beach Day & Shopping",
+            "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+            "distance": "10 km / 30 min",
+            "activities": [
+              "Seminyak Beach morning swim",
+              "Boutique shopping on Jalan Kayu Aya",
+              "Potato Head Beach Club",
+              "Cooking class (optional)",
+              "Farewell beachfront dinner"
+            ]
+          },
+          {
+            "day": 6,
+            "date": "",
+            "route": "Seminyak",
+            "title": "Free Day / Optional Tours",
+            "description": "Choose your own adventure or simply relax.",
+            "distance": "Variable",
+            "activities": [
+              "Nusa Penida day trip (optional)",
+              "Surfing lessons (optional)",
+              "Spa & wellness day (optional)",
+              "Shopping & cafe hopping",
+              "Free evening"
+            ]
+          },
+          {
+            "day": 7,
+            "date": "",
+            "route": "Seminyak → Denpasar",
+            "title": "Departure",
+            "description": "Final morning at leisure before transfer to airport.",
+            "distance": "10 km / 30 min",
+            "activities": [
+              "Late checkout (subject to availability)",
+              "Last-minute souvenir shopping",
+              "Airport transfer",
+              "Farewell from Bali!"
+            ]
+          }
+        ],
+        "notes": [
+          "Best time to visit: April - October (dry season)",
+          "Visa on arrival available for most nationalities ($35 USD)",
+          "Local currency: Indonesian Rupiah (IDR)",
+          "Dress modestly when visiting temples (shoulders & knees covered)",
+          "Travel insurance highly recommended"
+        ],
+        "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+      },
+      "id": "template-msxl6y7o-5ffyug9",
+      "isDefault": false,
+      "isProtected": false,
+      "createdAt": "2026-08-17T18:48:15.540Z",
+      "updatedAt": "2026-08-17T18:48:15.540Z"
+    },
+    {
+      "name": "Test 112",
+      "description": "Test 112",
+      "category": "classic",
+      "tags": [],
+      "thumbnail": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+      "folderId": "4",
+      "structure": {
+        "company": "Wanderlust Travel Co.",
+        "consultant": "Travel Consultant",
+        "phone": "+1 (555) 123-4567",
+        "website": "www.wanderlusttravel.com",
+        "destination": "Bali, Indonesia",
+        "title": "Tropical Paradise Escape",
+        "subtitle": "7 Days of Sun, Sand & Culture",
+        "heroImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=85",
+        "route": [
+          "Denpasar",
+          "Ubud",
+          "Seminyak",
+          "Denpasar"
+        ],
+        "inclusions": [
+          "6 nights accommodation in 4-star hotels",
+          "Daily breakfast and 3 dinners",
+          "Airport transfers and inter-city transport",
+          "English-speaking local guide",
+          "Entrance fees to all listed attractions",
+          "Travel insurance (basic coverage)"
+        ],
+        "exclusions": [
+          "International flights",
+          "Visa fees (if applicable)",
+          "Personal expenses and tips",
+          "Optional activities not listed",
+          "Travel insurance upgrades",
+          "Meals not specified in itinerary"
+        ],
+        "hotels": [
+          {
+            "option": "A",
+            "label": "Standard Comfort",
+            "city1": "Ubud",
+            "hotel1": "Ubud Village Hotel",
+            "room1": "Deluxe Garden View",
+            "nights1": 3,
+            "city2": "Seminyak",
+            "hotel2": "The Haven Bali Seminyak",
+            "room2": "Superior Room",
+            "nights2": 3,
+            "vehicle": "Toyota Avanza (6-seater)"
+          },
+          {
+            "option": "B",
+            "label": "Premium Experience",
+            "city1": "Ubud",
+            "hotel1": "Komaneka at Bisma",
+            "room1": "Pool Villa",
+            "nights1": 3,
+            "city2": "Seminyak",
+            "hotel2": "W Bali - Seminyak",
+            "room2": "Wonderful Room",
+            "nights2": 3,
+            "vehicle": "Toyota Fortuner (6-seater)"
+          }
+        ],
+        "itinerary": [
+          {
+            "day": 1,
+            "date": "",
+            "route": "Denpasar → Ubud",
+            "title": "Arrival & Ubud Cultural Immersion",
+            "description": "Welcome to Bali! Transfer to Ubud, the cultural heart of the island. Afternoon visit to Ubud Palace and traditional market.",
+            "distance": "35 km / 1.5 hrs",
+            "activities": [
+              "Airport pickup and transfer",
+              "Check-in at hotel",
+              "Ubud Palace visit",
+              "Traditional market exploration",
+              "Welcome dinner at local restaurant"
+            ]
+          },
+          {
+            "day": 2,
+            "date": "",
+            "route": "Ubud",
+            "title": "Sacred Temples & Rice Terraces",
+            "description": "Full day exploring Ubud's spiritual and natural wonders.",
+            "distance": "25 km / 1 hr",
+            "activities": [
+              "Tegallalang Rice Terraces sunrise",
+              "Tirta Empul Holy Water Temple",
+              "Gunung Kawi Temple complex",
+              "Coffee plantation tour",
+              "Traditional Balinese dance performance"
+            ]
+          },
+          {
+            "day": 3,
+            "date": "",
+            "route": "Ubud",
+            "title": "Art, Craft & Wellness",
+            "description": "Discover Ubud's artistic heritage and rejuvenate with wellness experiences.",
+            "distance": "15 km / 45 min",
+            "activities": [
+              "Mas Village woodcarving workshop",
+              "Celuk Village silver jewelry making",
+              "Ubud Art Market shopping",
+              "Spa treatment (2 hours)",
+              "Yoga session at hotel"
+            ]
+          },
+          {
+            "day": 4,
+            "date": "",
+            "route": "Ubud → Seminyak",
+            "title": "Journey to the Coast",
+            "description": "Scenic drive to Seminyak with stops at iconic landmarks.",
+            "distance": "30 km / 1.5 hrs",
+            "activities": [
+              "Tanah Lot Temple sunset visit",
+              "Canggu rice field walk",
+              "Beach club lunch",
+              "Check-in at Seminyak hotel",
+              "Sunset drinks at beach bar"
+            ]
+          },
+          {
+            "day": 5,
+            "date": "",
+            "route": "Seminyak",
+            "title": "Beach Day & Shopping",
+            "description": "Relaxed day enjoying Seminyak's famous beaches and boutique shopping.",
+            "distance": "10 km / 30 min",
+            "activities": [
+              "Seminyak Beach morning swim",
+              "Boutique shopping on Jalan Kayu Aya",
+              "Potato Head Beach Club",
+              "Cooking class (optional)",
+              "Farewell beachfront dinner"
+            ]
+          },
+          {
+            "day": 6,
+            "date": "",
+            "route": "Seminyak",
+            "title": "Free Day / Optional Tours",
+            "description": "Choose your own adventure or simply relax.",
+            "distance": "Variable",
+            "activities": [
+              "Nusa Penida day trip (optional)",
+              "Surfing lessons (optional)",
+              "Spa & wellness day (optional)",
+              "Shopping & cafe hopping",
+              "Free evening"
+            ]
+          },
+          {
+            "day": 7,
+            "date": "",
+            "route": "Seminyak → Denpasar",
+            "title": "Departure",
+            "description": "Final morning at leisure before transfer to airport.",
+            "distance": "10 km / 30 min",
+            "activities": [
+              "Late checkout (subject to availability)",
+              "Last-minute souvenir shopping",
+              "Airport transfer",
+              "Farewell from Bali!"
+            ]
+          }
+        ],
+        "notes": [
+          "Best time to visit: April - October (dry season)",
+          "Visa on arrival available for most nationalities ($35 USD)",
+          "Local currency: Indonesian Rupiah (IDR)",
+          "Dress modestly when visiting temples (shoulders & knees covered)",
+          "Travel insurance highly recommended"
+        ],
+        "validity": "Valid for travel: April 1 - October 31, 2025. Prices subject to change based on availability."
+      },
+      "id": "template-msxllabt-yxayqnp",
+      "isDefault": false,
+      "isProtected": false,
+      "createdAt": "2026-08-17T18:59:24.425Z",
+      "updatedAt": "2026-08-17T18:59:24.425Z"
+    }
+  ]
+}

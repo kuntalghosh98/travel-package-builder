@@ -1,0 +1,8 @@
+{
+  "/api/folders": "/folders",
+  "/api/templates": "/templates",
+  "/api/packages": "/packages",
+  "/api/folders/:id": "/folders/:id",
+  "/api/templates/:id": "/templates/:id",
+  "/api/packages/:id": "/packages/:id"
+}
