@@ -3,7 +3,7 @@
  */
 
 /**
- * Compare folder/template IDs from json-server (number) vs form inputs (string).
+ * Compare IDs that may be stored as numbers or strings (e.g. folder IDs).
  */
 export function sameId(a, b) {
   if (a == null && b == null) return true;

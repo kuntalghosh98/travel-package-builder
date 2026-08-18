@@ -9,8 +9,12 @@ import { TemplateGrid } from '../components/TemplateGrid.jsx';
 import { TemplatePreview } from '../components/TemplatePreview.jsx';
 import { templateService } from '../services/templateService.js';
 import { sameId } from '../utils/helpers.js';
+import { useToast } from '../components/Toast.jsx';
+import { useConfirm } from '../components/ConfirmDialog.jsx';
 
 export function TemplatesPage({ onNavigateToBuilder }) {
+  const toast = useToast();
+  const { confirm, dialog: confirmDialog } = useConfirm();
   const [defaultTemplates, setDefaultTemplates] = useState([]);
   const [userTemplates, setUserTemplates] = useState([]);
   const [folders, setFolders] = useState([]);
@@ -87,7 +91,13 @@ export function TemplatesPage({ onNavigateToBuilder }) {
   };
 
   const handleDeleteTemplate = async (templateId) => {
-    if (!confirm('Are you sure you want to delete this template?')) return;
+    const ok = await confirm({
+      title: 'Delete template',
+      message: 'Are you sure you want to delete this template? This action cannot be undone.',
+      confirmLabel: 'Delete',
+      danger: true
+    });
+    if (!ok) return;
     
     try {
       await templateService.deleteTemplate(templateId);
@@ -95,7 +105,7 @@ export function TemplatesPage({ onNavigateToBuilder }) {
       setPreviewTemplate(null);
     } catch (error) {
       console.error('Failed to delete template:', error);
-      alert('Failed to delete template: ' + error.message);
+      toast.error(`Failed to delete template: ${error.message}`);
     }
   };
 
@@ -151,7 +161,13 @@ export function TemplatesPage({ onNavigateToBuilder }) {
   };
 
   const handleDeleteFolder = async (folderId) => {
-    if (!confirm('Are you sure you want to delete this folder? Templates in this folder will be moved to the parent folder.')) return;
+    const ok = await confirm({
+      title: 'Delete folder',
+      message: 'Are you sure you want to delete this folder? Templates in this folder will be moved to the parent folder.',
+      confirmLabel: 'Delete',
+      danger: true
+    });
+    if (!ok) return;
 
     const deletedFolder = folders.find(f => sameId(f.id, folderId));
 
@@ -325,6 +341,7 @@ export function TemplatesPage({ onNavigateToBuilder }) {
           </div>
         </div>
       )}
+      {confirmDialog}
     </div>
   );
 }

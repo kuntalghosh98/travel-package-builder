@@ -1,18 +1,15 @@
 /**
- * API Service - REST client for json-server mock backend
- * Provides CRUD operations for folders and templates
- * Uses fetch API to communicate with the mock backend
+ * API Service - REST client for the Node/MongoDB backend
  */
 
 import { sameId } from '../utils/helpers.js';
-
-const API_BASE = '/api';
+import { buildApiUrl } from '../config/api.js';
 
 /**
  * Generic fetch wrapper with error handling
  */
 async function apiFetch(endpoint, options = {}) {
-  const url = `${API_BASE}${endpoint}`;
+  const url = buildApiUrl(endpoint);
   const config = {
     headers: {
       'Content-Type': 'application/json',

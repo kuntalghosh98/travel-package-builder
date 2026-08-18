@@ -1,6 +1,6 @@
 /**
  * Template Service - Business logic for template operations
- * Uses json-server REST API as the data store
+ * Uses the Node/MongoDB REST API as the data store
  */
 
 import { apiService } from "./apiService.js";

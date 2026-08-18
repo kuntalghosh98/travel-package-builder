@@ -1,5 +1,5 @@
 /**
- * Package Service - Handles all package operations via json-server REST API
+ * Package Service - Handles all package operations via the Node/MongoDB REST API
  */
 
 import { apiService } from './apiService.js';

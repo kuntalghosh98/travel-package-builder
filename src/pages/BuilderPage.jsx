@@ -2,6 +2,8 @@ import React, { useEffect, useMemo, useState } from "react";
 import { packageService } from "../services/packageService";
 import { templateService } from "../services/templateService";
 import { deepClone, generateId, formatCurrency, sameId } from "../utils/helpers";
+import { useToast } from "../components/Toast.jsx";
+import { useConfirm } from "../components/ConfirmDialog.jsx";
 
 const ACCENT = "#008CFF";
 
@@ -294,6 +296,8 @@ function PaperHeader({ pkg, title }) {
 }
 
 export function BuilderPage({ templateId = "template-1", onBack }) {
+  const toast = useToast();
+  const { confirm, dialog: confirmDialog } = useConfirm();
   const [pkg, setPkg] = useState(null);
   const [section, setSection] = useState("general");
   const [previewPage, setPreviewPage] = useState(1);
@@ -334,7 +338,7 @@ export function BuilderPage({ templateId = "template-1", onBack }) {
     loadPackage();
   }, [templateId]);
 
-  // Auto-save via packageService (json-server)
+  // Auto-save via packageService (Node API)
   useEffect(() => {
     if (pkg) {
       const timer = setTimeout(async () => {
@@ -441,12 +445,21 @@ export function BuilderPage({ templateId = "template-1", onBack }) {
     }
   };
 
-  const handleReset = () => {
-    if (confirm("Reset the package to the template default?")) {
-      packageService.createPackage(templateId).then(newPkg => {
-        setPkg(newPkg);
-        setPreviewPage(1);
-      });
+  const handleReset = async () => {
+    const ok = await confirm({
+      title: "Reset package",
+      message: "Reset the package to the template default? Unsaved changes will be lost.",
+      confirmLabel: "Reset",
+      danger: true
+    });
+    if (!ok) return;
+
+    try {
+      const newPkg = await packageService.createPackage(templateId);
+      setPkg(newPkg);
+      setPreviewPage(1);
+    } catch (err) {
+      setError(err.message);
     }
   };
 
@@ -489,7 +502,7 @@ export function BuilderPage({ templateId = "template-1", onBack }) {
       setTemplateCategory("custom");
       setTemplateTags("");
       setTemplateFolderId(null);
-      alert("Template saved successfully!");
+      toast.success("Template saved successfully!");
     } catch (err) {
       setError(err.message);
     }
@@ -554,8 +567,8 @@ export function BuilderPage({ templateId = "template-1", onBack }) {
             </button>
           ))}
           <div className="sideTitle design">DESIGN</div>
-          <button className="nav" onClick={() => alert("Template system is prepared for the next iteration.")}><span className="dot"></span>Templates</button>
-          <button className="nav" onClick={() => alert("Brand settings are prepared for the next iteration.")}><span className="dot"></span>Brand settings</button>
+          <button className="nav" onClick={() => toast.info("Template system is prepared for the next iteration.")}><span className="dot"></span>Templates</button>
+          <button className="nav" onClick={() => toast.info("Brand settings are prepared for the next iteration.")}><span className="dot"></span>Brand settings</button>
           <div className="sideBottom"><small>Autosave enabled</small><small>Local browser storage</small></div>
         </aside>
 
@@ -685,8 +698,7 @@ export function BuilderPage({ templateId = "template-1", onBack }) {
           </div>
         </div>
       )}
+      {confirmDialog}
     </div>
   );
 }
-
-export default BuilderPage;

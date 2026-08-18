@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
+import { ToastProvider } from "./components/Toast.jsx";
 import { TemplatesPage } from "./pages/TemplatesPage.jsx";
 import { BuilderPage } from "./pages/BuilderPage.jsx";
 import { packageService } from "./services/packageService.js";
@@ -40,4 +41,8 @@ function App() {
   );
 }
 
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(
+  <ToastProvider>
+    <App />
+  </ToastProvider>
+);

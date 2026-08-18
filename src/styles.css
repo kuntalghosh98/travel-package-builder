@@ -2677,3 +2677,89 @@ button {
     break-after: auto;
   }
 }
+
+/* =========================================================
+   TOAST NOTIFICATIONS
+========================================================= */
+
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: min(92vw, 380px);
+  pointer-events: none;
+}
+
+.toast {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #e4ebf2;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+  animation: toastSlideIn 0.25s ease;
+  pointer-events: auto;
+}
+
+@keyframes toastSlideIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.toast__message {
+  font-size: 14px;
+  line-height: 1.45;
+  color: #17202a;
+}
+
+.toast__close {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  color: #6b7c8d;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.toast__close:hover {
+  background: #f2f5f8;
+  color: #17202a;
+}
+
+.toast--success {
+  border-left: 4px solid #16884b;
+}
+
+.toast--error {
+  border-left: 4px solid #d64545;
+}
+
+.toast--info {
+  border-left: 4px solid #008CFF;
+}
+
+/* =========================================================
+   CONFIRM DIALOG
+========================================================= */
+
+.modal__content--sm {
+  width: min(90vw, 420px);
+}
+
+.confirm-dialog__message {
+  margin: 0;
+  color: #4b5b68;
+  font-size: 14px;
+  line-height: 1.55;
+}
