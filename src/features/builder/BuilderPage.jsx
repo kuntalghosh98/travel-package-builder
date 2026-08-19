@@ -73,20 +73,6 @@ export function BuilderPage() {
     });
   }, [templateId]);
 
-  useEffect(() => {
-    if (!localPkg?.id) return;
-    const timer = setTimeout(async () => {
-      try {
-        await savePackage.mutateAsync(localPkg);
-        setSaved(true);
-        setTimeout(() => setSaved(false), 1600);
-      } catch (err) {
-        setError(err.message);
-      }
-    }, 500);
-    return () => clearTimeout(timer);
-  }, [localPkg]);
-
   const update = (key, value) => setLocalPkg(p => ({ ...p, [key]: value }));
 
   const handleSave = async () => {
@@ -242,7 +228,7 @@ export function BuilderPage() {
           <div className="sideTitle design">DESIGN</div>
           <button className="nav" onClick={() => toast.info('Template system is prepared for the next iteration.')}><span className="dot"></span>Templates</button>
           <button className="nav" onClick={() => toast.info('Brand settings are prepared for the next iteration.')}><span className="dot"></span>Brand settings</button>
-          <div className="sideBottom"><small>Autosave enabled</small><small>Synced to cloud</small></div>
+          <div className="sideBottom"><small>Click Save to persist changes</small></div>
         </aside>
 
         <section className="editor">
