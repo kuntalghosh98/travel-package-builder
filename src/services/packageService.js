@@ -5,6 +5,7 @@
 import { apiService } from './apiService.js';
 import { templateService } from './templateService.js';
 import { deepClone, generateId } from '../utils/helpers.js';
+import { applyTemplateStructure } from '../shared/lib/templateSchema.js';
 import { getItem, setItem } from './storageService.js';
 
 const PACKAGE_HISTORY_KEY = 'travel-package-history';
@@ -54,6 +55,14 @@ function getDefaultPackage() {
 }
 
 export const packageService = {
+  async getPackageById(packageId) {
+    const pkg = await apiService.packages.getById(packageId);
+    if (!pkg) {
+      throw new Error('Package not found');
+    }
+    return pkg;
+  },
+
   /**
    * Get current package from the API
    */
@@ -98,14 +107,8 @@ export const packageService = {
 
     const template = await templateService.getTemplateById(templateId);
     if (template) {
-      const templateData = template.structure || template.content;
-      if (templateData) {
-        Object.keys(templateData).forEach(key => {
-          if (key !== 'id' && key !== 'createdAt' && key !== 'updatedAt' && key !== 'templateId') {
-            newPackage[key] = deepClone(templateData[key]);
-          }
-        });
-      }
+      const merged = applyTemplateStructure(newPackage, template);
+      Object.assign(newPackage, merged);
     }
 
     return this.savePackage(newPackage);
@@ -141,21 +144,8 @@ export const packageService = {
   async loadFromTemplate(template) {
     const newPackage = getDefaultPackage();
     newPackage.templateId = template.id;
-
-    if (template.content) {
-      Object.keys(template.content).forEach(key => {
-        if (key !== 'id' && key !== 'createdAt' && key !== 'updatedAt' && key !== 'templateId') {
-          newPackage[key] = deepClone(template.content[key]);
-        }
-      });
-    } else if (template.structure) {
-      Object.keys(template.structure).forEach(key => {
-        if (key !== 'id' && key !== 'createdAt' && key !== 'updatedAt' && key !== 'templateId') {
-          newPackage[key] = deepClone(template.structure[key]);
-        }
-      });
-    }
-
+    const merged = applyTemplateStructure(newPackage, template);
+    Object.assign(newPackage, merged);
     return this.savePackage(newPackage);
   },
 
